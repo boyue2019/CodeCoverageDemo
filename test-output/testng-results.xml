@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test Demo" duration-ms="73" started-at="2020-11-05T14:16:30 CST" finished-at="2020-11-05T14:16:30 CST">
+    <groups>
+    </groups>
+    <test name="InterfaceTesting" duration-ms="73" started-at="2020-11-05T14:16:30 CST" finished-at="2020-11-05T14:16:30 CST">
+      <class name="com.test.DemoTestNG">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.test.DemoTestNG@7babb2fd]" name="init" is-config="true" duration-ms="5" started-at="2020-11-05T14:16:30 CST" finished-at="2020-11-05T14:16:30 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="case_001()[pri:0, instance:com.test.DemoTestNG@7babb2fd]" name="case_001" duration-ms="2" started-at="2020-11-05T14:16:30 CST" finished-at="2020-11-05T14:16:30 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- case_001 -->
+        <test-method status="PASS" signature="case_002()[pri:0, instance:com.test.DemoTestNG@7babb2fd]" name="case_002" duration-ms="0" started-at="2020-11-05T14:16:30 CST" finished-at="2020-11-05T14:16:30 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- case_002 -->
+      </class> <!-- com.test.DemoTestNG -->
+    </test> <!-- InterfaceTesting -->
+  </suite> <!-- Test Demo -->
+</testng-results>
