@@ -1,9 +1,7 @@
 package com.controller;
 
-import com.dto.Result;
 import com.service.api.TestNgExecuteService;
 import com.service.api.TestReportService;
-import com.test.BaseCase;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -23,9 +21,19 @@ public class TestCaseExecuteController {
      */
     @RequestMapping(value = "/it",method = RequestMethod.GET,produces = "application/json;charset=UTF-8")
     String getUserByGet(@RequestParam(value = "token") String token){
+        int result = 0;
+
         if (token.equals("") || token == null){
             //testNgExecuteService.TestCaseExecute(testNgExecuteService.TestCaseIntegration());
             //return testReportService.ApiResult();
+
+            if (token.length() > 5){
+                result = 10;
+                System.out.println("result:" + result);
+            }else {
+                result = 5;
+                System.out.println("result:" + result);
+            }
             System.out.println("授权失败；token:" + token);
             return "授权失败";
         }else {
